@@ -1,9 +1,8 @@
 #pragma once
 
-#include <SDL3_mixer/SDL_mixer.h>
+#include "SDL3_mixer/SDL_mixer.h"
 #include <iostream>
 #include <vector>
-#include "../game/game_consts.h"
 
 class AudioPlayer
 {

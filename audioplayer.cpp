@@ -34,8 +34,8 @@ AudioPlayer::AudioPlayer()
 	}
 
 	Mix_AllocateChannels(m_ChannelCount);
-	int version = Mix_Version();
-	std::cout << " SDL_Mixer Loaded. Version : " << version << std::endl;
+	// int version = Mix_Version();
+	// std::cout << " SDL_Mixer Loaded. Version : " << version << std::endl;
 }
 
 AudioPlayer::~AudioPlayer()
